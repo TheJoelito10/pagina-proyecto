@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Data System</title >
+<style>
+  p{
+            	color: peachpuff  ;
+          	}
+  body{
+                background-color: orange	;
+                	}
+ li{
+  font-size: 18px;
+  font-family: serif;
+}
+
+header {
+  background: #03A9F4;
+  width: 100%;
+  clear: both;
+  content:'';
+  display: table;
+}
+
+.menu {
+  width: 900px;
+  height: 120px;
+  margin: 0 auto;
+}
+
+.menu img{
+  width: 120px;
+  height: 120px;
+  margin: 0 auto;
+}
+
+
+nav {
+  float: right;
+}
+
+nav ul li {
+  list-style: none;
+  margin-left: 75px;
+  padding: 12px 0;
+  float: left;
+  position: relative;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #444;
+  font-weight: bold;
+}
+
+nav ul li a::before {
+  display: block;
+  content: '';
+  width: 0%;
+  background: #444;
+  height: 5px;
+  top:0;
+  position: absolute;
+  transition: width 0.2s;
+}
+
+nav ul li a:hover::before {
+  width: 100%;
+}
+.pie-pagina{
+    width: 100%;
+    background-color: #0a141d;
+}
+.pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:50px;
+    padding: 45px 0px;
+}
+.pie-pagina .grupo-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pie-pagina .grupo-1 .box figure img{
+    width: 250px;
+    height: 190px;
+    margin: 0 auto; 
+}
+.pie-pagina .grupo-1 .box h2{
+    color: #fff;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+.pie-pagina .grupo-1 .box p{
+    color: #efefef;
+    margin-bottom: 10px;
+}
+.pie-pagina .grupo-1 .red-social a{
+    
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    margin-right: 15px;
+    background-color: #0d2033;
+    text-align: center;
+    
+
+    
+}
+
+.pie-pagina .grupo-1 .red-social li{
+    padding: 10px;
+    display: inline-block;
+
+}
+.pie-pagina .grupo-1 .red-social a:hover{
+    color: aqua;
+}
+	
+</style>
+</head>
+<body>
+<header>
+    <div class="menu">
+      <img src="imagenes/DS.png" alt="hola mundo" width="50%" height="50%">
+      <nav>
+          <ul>
+             <li><a href="index.html">Inicio</a></li>
+            <li><a href="pagina1.html">Historia</a></li>
+            <li><a href="pagina2.html">Programas con IA</a></li>
+            <li><a href="pagina1.html">Usos de la IA</a></li>
+            <li><a href="pagina4.html">Tipos de IA</a></li>
+          </ul>
+      </nav>
+    </div>
+  </header>
+<h1>Programas más utilizados de inteligencias artificiales </h1>
+<h2 >  chat GPT </h2>
+<p>GPT3 es la herramienta de IA más popular del mercado en la actualidad debido a la facilidad de uso y la rapidez en sus respuestas. Dentro del marketing digital tiene diferentes usos, especialmente en la generación de contenidos. </p>
+<img src="imagenes/imagen8.jpg" width="200px">
+<h2> frase.io </h2>
+<p>ayuda a ahorrar tiempo en la búsqueda de palabras clave, creación de contenido, investigación de temáticas y análisis de la competencia.
+Es un software que, a través de su algoritmo, compara cualquier término que ya está en línea y genera resúmenes rápidos que incluyen las preguntas más comunes, subtemas e información relacionada. Además, tiene un editor de contenido que analiza en tiempo real lo que se está escribiendo y hace sugerencias de posibles mejoras.</p>
+<img src="imagenes/imagen9.png" width="200px" >
+<h2> Salesforce Einstein </h2>
+<p> Ayuda a identificar y priorizar clientes potenciales y oportunidades de venta incrementado la tasa de ganancias. Resuelve solicitudes rutinarias de clientes en tiempo real por web o mensajería móvil. Sugiere canales de comunicaciones apropiados para conectar con cada tipo de cliente, entre otras. </p>
+<img src = "imagenes/imagen10.png" width="200px">
+<h2> Deepl </h2>
+<p> Esta herramienta traduce automáticamente textos y archivos hasta en 26 idiomas, sin perder su significado. Es intuitivo y fácil de usar y, además, es gratuito para el usuario habitual. Se puede acceder online para traducciones de hasta 5000 caracteres o integrarlo en el ordenador con la versión PRO. 
+
+El software inteligente es muy útil para redactores ya que aumenta su productividad al máximo. Tiene un glosario que permite corregir las palabras directamente en el texto de terminado, lo que resulta increíblemente cómodo y productivo. </p>
+<img src="imagenes/imagen11.png" width="200px" >
+<h2> Grammarly </h2>
+<p>Esta aplicación ayuda a reducir el tiempo que se tarda en revisar y corregir grandes cantidades de texto gracias a los algoritmos de IA. El software de Grammarly utiliza machine-learning, Deep-learning y NLP (Procesamiento de Lenguaje Natural) para que el texto sea lo más legible y lo más parecido y natural posible.
+Realiza chequeos ortográficos en frases complejas, detecta problemas de estilo y ofrece sugerencias. Además, está configurado para que entienda qué tipo de texto está corrigiendo (un ensayo, un post, un paper) para así poder dar soluciones más acertadas al tipo de lenguaje que se está utilizando. </p>
+<img src="imagenes/imagen12.png" width="200px" >
+
+<footer class="pie-pagina">
+        <div class="grupo-1">
+            <div class="box">
+                <figure>
+                    <a href="#"> 
+                        <img src="imagenes/DS.png" alt="Logo de la página">                    
+                    </a>
+                </figure>
+            </div>
+            <div class="box">
+                <h2>SOBRE NOSOTROS</h2>
+                <p>Esta página web fue creada por estudiantes del colegio Dr.Francisco Arízaga Luque.</p>
+                <p>Te dejamos nuestras redes sociales por si deseas seguirnos.</p>
+            </div>
+            <div class="box">
+                <h2>SIGUENOS</h2>
+                <div class="red-social">
+                    <ul>
+                      <li><a href="https://www.youtube.com/" target="blank"><img src="imagenes/youtube1.png" width="75" height="75"></a></li>
+                      <li><a href="https://www.facebook.com/" target="blank"><img src="imagenes/facebook1.png" width="35" height="35"></a></li>
+                      <li><a href="https://www.instagram.com/" target="blank"><img src="imagenes/instagram.png" width="35" height="35"></a></li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+        <div class="grupo-2">
+            <small>&copy; 2021 <b>SLee Dw</b> - Todos los Derechos Reservados.</small>
+        </div>
+    </footer>
+
+</body>
+</html>
